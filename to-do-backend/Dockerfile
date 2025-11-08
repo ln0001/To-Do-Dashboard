@@ -1,14 +1,14 @@
-# Use official OpenJDK 17 image
-FROM openjdk:17-jdk-slim
+# Use a reliable OpenJDK base image
+FROM eclipse-temurin:17-jdk-jammy
 
 # Set the working directory
 WORKDIR /app
 
-# Copy the built JAR from target folder into the container
+# Copy the built JAR file into the container
 COPY target/to-do-backend-0.0.1-SNAPSHOT.jar app.jar
 
-# Expose the port your app runs on
+# Expose port (Render will replace it dynamically)
 EXPOSE 8080
 
-# Run the JAR file
+# Run the Spring Boot application
 ENTRYPOINT ["java", "-jar", "app.jar"]
