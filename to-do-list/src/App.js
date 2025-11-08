@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css"; // 👉 we'll add CSS next
 
-const API_BASE_URL = "https://to-do-dashboard-1.onrender.com/";
+const API_BASE_URL = "https://to-do-dashboard-1.onrender.com/api/todos";
 
 function App() {
   const [todos, setTodos] = useState([]);
