@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://todoproject-three-lemon.vercel.app/")
 public class ToDoController {
     @Autowired
     private final ToDoService service;
