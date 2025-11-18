@@ -10,14 +10,10 @@ The project is deployed and live on the internet.
 
 # 🛠️ Tech Stack
 **Frontend**
--HTML
--CSS
--JavaScript
--React.js
+-HTML, CSS, JavaScript, React.js
 
 **Backend**
--Spring Boot
--Spring Data JPA
+-Spring Boot, Spring Data JPA
 
 **Database**
 -MySQL
@@ -37,6 +33,6 @@ The project is deployed and live on the internet.
 3. The app is hosted online, making it accessible from any device.
 
 # 🌐 Deployment
-**Frontend:** Deployed on Vercel
-**Backend:** Deployed on Render
+**Frontend:** Deployed on Vercel | 
+**Backend:** Deployed on Render | 
 **Database:** Hosted on railway
