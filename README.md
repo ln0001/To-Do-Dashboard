@@ -3,7 +3,7 @@ A simple and responsive to-do list application that lets users add, view, update
 
 # Tech stack:
 **Frontend:** HTML, CSS, javascript, React.js |
-**Backend:** Spring boot, Spring Data JPA
+**Backend:** Spring boot, Spring Data JPA |
 **Database:** MySQL
 
 This project is deployed and LIVE on INTERNET, just click on below link.
